@@ -5,10 +5,6 @@ Scenario Outline: API's response corresponds with input
     Given I request 
      When I send request <isGenderKnown> <isDateOfBirthKnown> <amount> <date>
      Then response is valid for the <date> and <isGenderKnown>
-      # And response consists of 11 digits
-      # And the last 2 digits are modulo of first 9 digits divided by 97
-      # And if gender is known month is +40
-      # And if gender is not known month is +20
      
 
 Examples:
