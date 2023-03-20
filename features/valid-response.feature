@@ -9,7 +9,7 @@ Scenario Outline: API's response corresponds with input
 
 Examples:
   | isGenderKnown | isDateOfBirthKnown | amount | date       | 
-  | true          | true               | 1      | ''         | 
+  | true          | true               | ''     | ''         | 
   | true          | true               | 1      | 1967-11-10 | 
   | false         | false              | 1      | ''         | 
   | false         | true               | 1      | 2023-03-19 |
