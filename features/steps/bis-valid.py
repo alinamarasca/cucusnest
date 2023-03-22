@@ -24,7 +24,6 @@ def step_impl(context, isGenderKnown, isDateOfBirthKnown, amount, date) :
 
 @then ("response is valid for the {date} and {isGenderKnown}")
 def step_impl(context, date, isGenderKnown):
-    print(context.response)
     generated_bis = context.response.json()['bis'][0]
 
     # And response consists of 11 digits
