@@ -1,7 +1,7 @@
 phones = '''{
  "be": [
     {
-      "prefix": "32"
+      "prefix": "+32"
     },
     {
       "landlineAreaCode": [
